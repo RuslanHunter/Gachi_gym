@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image\gachi3.jpg" />
+    <None Remove="image\gachi3.png" />
+    <None Remove="image\GACI2.jpg" />
+    <None Remove="image\GACI2.png" />
+    <None Remove="image\GIGA.jpg" />
+    <None Remove="image\GIGA.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\gachi3.png" />
+    <Resource Include="image\GACI2.png" />
+    <Resource Include="image\GIGA.png" />
+  </ItemGroup>
+
+</Project>
